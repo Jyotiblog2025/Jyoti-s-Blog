@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+        }
+        .main-content {
+            flex: 2;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post {
+            margin-bottom: 30px;
+        }
+        .post h2 {
+            color: #2c3e50;
+        }
+        .post .date {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+        .sidebar h3 {
+            color: #2c3e50;
+        }
+        .comments-section {
+            margin-top: 20px;
+        }
+        .comment {
+            border-top: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .comment .author {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        .comment-form label {
+            display: block;
+            margin: 5px 0;
+        }
+        .comment-form input, .comment-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Ensures padding doesn’t overflow */
+        }
+        .comment-form button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%; /* Full-width button in sidebar */
+        }
+        .comment-form button:hover {
+            background-color: #34495e;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <p>Welcome to my thoughts and stories</p>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="post">
+                <h2>First Blog Post</h2>
+                <p class="date">Posted on February 22, 2025</p>
+                <p>This is my very first blog post! Trying to learn new skills, I created this using Grok 3.</p>
+            </div>
+            <div class="post">
+                <h2>Another Day, Another Thought</h2>
+                <p class="date">Posted on February 23, 2025</p>
+                <p>Today I am learning to use this blog. How to add new posts, edit appearance. I am also trying to learn writing skills. Recently I read a few good classic books and started wondering if I can also develop some writing skills. I decided to start with wring my own thoughts about the books. Let’s see what I can come up with.
+
+<p>1.	1984 by George Orwell, originally published in 1949 
+ I started my new reading journey with this, as I read and heard a lot of recommendations. It took me a long time to finish reading. I realized reading skills also get dusty if we don't use these regularly. 
+The extent of imagination and telling a story in such great detail using the imagination was mind boggling for me. Sometimes, I wonder if these great writers somehow know something that most of the people don't. Is it well developed instincts that give them a view of the future? The idea of monitoring every action (including mental thoughts) of each person by an authority in the society seems so possible with today's technology but how did George Orwell see this? I was hoping for a happy ending something like the main characters being able to break the system, I guess I am a dreamer. I personally find it very difficult to set moral boundaries for others and judge anyone. Nobody knows what is going on in someone else's mind, that reminds me of "Citizen Cane" that I recently watched and enjoyed very much. I will write about that in a separate blog. Back to the book, there is another part of society for people who do not want to be controlled by moral police. These people have a harder life in terms earning a living, less resources to support in difficult times, but they are free. It reminds of another one of my favourite movies "Dor" a Hindi movie. Now I already have two movies listed for my next blog. So, to me synopsis is either go blindly with the society and be part of it to live a comfortable life with no freedom. You have to be brain washed so much that you can not even think out side of what is "right" as per the authorities. Or, have freedom of thoughts and decision making but you cannot expect to have an easy and comfortable life. This is the price we pay to have a "civilized" world. There is a fine line between the two options, but is very hard to draw this line. For me, being free appeals more than being comfortable. I plan to read the book again and write about very specifics that I find most fascinating.</p>
+
+<p>2.	Adventure of Huckleberry Finn by Mark Twain, originally published in 1885 
+This was the best storytelling style I have ever read. It was a trilling experience. The book tells the story of a young boy who runs away from home on a boat and the experiences he encounters on his journey. The most interesting part was learning about the lifestyle in those days. No internet, no telephone and people were still communicating. It provides a good idea about the lifestyle and society in those days.</p>
+
+</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>About Me</h3>
+            <p>Hi! I’m [Your Name], and this is my blog where I share my ideas, experiences, and more. Feel free to explore!</p>
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- Comments Section Moved to Sidebar -->
+            <div class="comments-section">
+                <h3>Comments</h3>
+                <div class="comment">
+                    <p class="author">Pranita</p>
+                    <p>Great post! Really enjoyed reading it.</p>
+                    <p class="date">February 23, 2025</p>
+                </div>
+                <div class="comment">
+                    <p class="author">Robert</p>
+                    <p>Looking forward to more content like this!</p>
+                    <p class="date">February 23, 2025</p>
+                </div>
+
+                <!-- Comment Form -->
+                <div class="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+Sent from my iPhone
+	
